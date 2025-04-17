@@ -23,7 +23,5 @@ The email that comes through includes a "Subject: Hostname HA Errors"
 And the contents of the email will look similar to (the script will not actually notify on failed_conditions, I just used that as a test condition):
 
 ```
-          "script_execution": "failed_conditions",
-                      "last_triggered": "2025-04-09T00:59:00.720714+00:00",
-                      "friendly_name": "test-automation"
+"script_execution": "error" "script_execution": "error" "last_triggered": "2025-04-15T15:03:32.218492+00:00" "friendly_name": "A/C to cool - Kitchen"
 ```
